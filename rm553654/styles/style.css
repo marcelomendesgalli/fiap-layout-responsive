@@ -1,0 +1,19 @@
+.corpo {
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.lista {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    background-color: antiquewhite;
+    margin: 0;
+}
+.lis {
+    padding: 10px;
+}
+@media screen and (max-width:600px){
+    .lista {
+        flex-direction: column;
+    }
+}
